@@ -1,0 +1,187 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#banner .b1{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.barra{
+    background-color: #000000;
+    align-items: center;
+
+}
+
+.logo{
+    min-width: 10em;
+    max-width: 12em;
+    vertical-align: center;
+}
+
+.itens-aula button{
+    width: 10em;
+    font-size: 2em;
+}
+
+@media (min-width: 0px) and (max-width: 992px)  {
+    .itens-aula > .row, .barra, .items-profile, #servicos .row, #avaliacoes .row, #contato .row{
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+    .aulas{
+        position: relative;
+        top: 0px;
+    }
+}
+
+
+
+.nav > a {
+    color: #fafafa;
+    font-size: 2.5em;
+} 
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+.fixedHeightImg > img {
+    max-height: 600px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.aulas{
+    position: relative;
+    top: -100px;
+    z-index: 1;
+    background-color: #FBB232;
+}
+
+#aulaP{
+    background-color: #FBB232;
+    min-height: 30em;
+    max-height: 50em;
+    color: #fafafa;
+
+}
+
+#aulaO{
+    background-color: #000000;
+    min-height: 30em;
+    max-height: 50em;
+    color: #fafafa;
+
+}
+
+.profile{
+    -webkit-clip-path: ellipse(39% 48% at 51% 47%);
+    clip-path: ellipse(39% 48% at 51% 47%);
+}
+#profile{
+    padding-top: 5em;
+    min-height: 60em;
+}
+
+.saiba a:link{
+    text-decoration: none;
+    font-size: 2em;
+    color: #FBB232;
+
+}
+
+.saiba a:hover{
+    text-decoration: none;
+    font-size: 2em;
+    color: #000000;
+}
+
+#servicos .row{
+    background-color: #EDEDED;
+    min-height: 60em;
+}
+
+#servicos i{
+    font-size: 5em;
+    
+}
+
+.quadro{
+    height: 35em;
+}
+
+.img-av{
+    -webkit-clip-path: circle(40.1% at 51% 39%);
+    clip-path: circle(40.1% at 51% 39%);
+    width: 20em;
+}
+
+#avaliacoes i{
+    font-size: 2em;
+}
+
+#avaliacoes .row{
+     min-height: 60em;
+}
+
+footer .row{
+    font-size: 1.2em;
+    background-color: #FBB232;
+}
+
+.dev{
+    margin-right: 2em;
+    font-weight: 500;
+}
+
+.dev a{
+    color: #fafafa;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.dev i{
+    font-size: 8em;
+}
+
+footer img{
+    -webkit-clip-path: inset(27% 9% 37% 10%);
+    clip-path: inset(27% 9% 37% 10%);
+}
+
+.menu-tab{
+    font-size: 3em;
+}
+
