@@ -8,6 +8,9 @@ Projeto pessoal para estudo utilizando HTML, CSS, JS e Bootstrap. Desenvolviment
 * __CSS__ - linguagem de estilo
 * __JS__ - Linguagem de programação
 * __BootStrap__ - Framework CSS
-
+* __Figma__ - Criação do Layout
 
 [preview do Site - Personal BS](https://reaugusto.github.io/personalBS)
+<br />
+[Projeto na Behance](https://www.behance.net/gallery/153862649/Site-Personal-trainner)
+
